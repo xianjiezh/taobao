@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.usernav-wrapper{
+    width: 100%;
+    background-color: #F5F5F5;
+
+
+}
+.usernav-wrapper .usernav-content{
+    width:1190px;
+    margin: 0 auto;
+    height: 35px;
+}
+.usernav-wrapper .usernav-content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.usernav-wrapper .usernav-content .usernav-content-left{
+    float: left;
+}
+.usernav-wrapper .usernav-content .usernav-content-left li{
+    float:left;
+    padding: 0 7px;
+}
+.usernav-wrapper .usernav-content .usernav-content-left li div{
+    height:35px;
+    line-height: 35px;
+}
+.usernav-wrapper .usernav-content .usernav-content-left li a{
+    font-size: 12px;
+    color: #6c6c6c;
+    float: left;
+    margin-right: 7px;
+}
+.usernav-wrapper .usernav-content .usernav-content-left li span{
+    float: left;
+    margin-right: 7px;
+    margin-top: 13px;
+    width:5px;
+    height: 5px;
+    background-color: red;
+}
+.usernav-wrapper .usernav-content .usernav-content-left li a:hover{
+    color:#f40;
+}
+.usernav-wrapper .usernav-content .usernm span{
+}
