@@ -9,7 +9,7 @@ li{
 .usernav-wrapper{
     width: 100%;
     background-color: #F5F5F5;
-
+    border-bottom: 1px solid #eee;
 
 }
 .usernav-wrapper .usernav-content{
@@ -52,5 +52,57 @@ li{
 .usernav-wrapper .usernav-content .usernav-content-left li a:hover{
     color:#f40;
 }
-.usernav-wrapper .usernav-content .usernm span{
+
+
+.usernav-wrapper .usernav-content-right{
+    float: right;
+}
+
+.usernav-wrapper .usernav-content-right li{
+    float: left;
+    padding: 0 7px;
+}
+.usernav-wrapper .usernav-content-left li .usernm{
+    max-width: 98px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.usernav-wrapper .usernav-content-right li div{
+    height: 35px;
+    line-height: 35px;
+}
+.usernav-wrapper .usernav-content-right li a{
+    font-size: 12px;
+    color: #6c6c6c;
+    float: left;
+    margin-right: 7px;
+}
+.usernav-wrapper .usernav-content-right li.line{
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    color: #E2DDDD;
+}
+.usernav-wrapper .usernav-content-right li span{
+    float: left;
+    margin-right: 7px;
+    margin-top: 15px;
+    width:5px;
+    height: 5px;
+    background-image: url(img/dropdown.png);
+    background-size: 5px;
+    background-position: 5px 5px;
+}
+.usernav-wrapper .usernav-content-right li a:hover{
+    color:#f40;
+}
+.usernav-wrapper .usernav-content-right li .star{
+    margin-top: 8px;
+    margin-right: 0;
+    width:20px;
+    height: 20px;
+    background-image: url(img/star.png);
+    background-size: 10px;
+    background-repeat: no-repeat;
 }
