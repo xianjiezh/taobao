@@ -42,10 +42,12 @@ li{
 .usernav-wrapper .usernav-content .usernav-content-left li span{
     float: left;
     margin-right: 7px;
-    margin-top: 13px;
+    margin-top: 15px;
     width:5px;
     height: 5px;
-    background-color: red;
+    background-image: url(img/dropdown.png);
+    background-size: 5px;
+    background-position: 5px 5px;
 }
 .usernav-wrapper .usernav-content .usernav-content-left li a:hover{
     color:#f40;
