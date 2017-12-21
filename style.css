@@ -143,12 +143,12 @@ a{
 
 }
 .taobao-body .head .qrcode{
-    width: 65px;
-    height:75px;
+    height:95px;
     border: 1px solid #EEE;
     position: absolute;
     top: 0;
     right:120px;
+    padding: 0 6px;
 }
 .taobao-body .head .qrcode span{
     color:#F40;
@@ -210,4 +210,5 @@ a{
     border-bottom-right-radius:14px;
     color: #FFF;
     font-size: 17px;
+    cursor: pointer;
 }
