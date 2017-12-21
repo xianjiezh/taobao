@@ -6,6 +6,9 @@
 li{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 .usernav-wrapper{
     width: 100%;
     background-color: #F5F5F5;
@@ -106,12 +109,58 @@ li{
     background-size: 10px;
     background-repeat: no-repeat;
 }
-
-
-
 /* nav 样式结束 */
+
+
 
 .taobao-body{
     width :1190px;
-    margin: 0 auto;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.taobao-body .head{
+    position: relative;
+}
+.taobao-body .head .head-search{
+    width:550px;
+    height:50px;
+    margin: 5px auto;
+    border: 1px solid black;
+}
+.taobao-body .head .head-logo{
+
+    position: absolute;
+    top:0;
+    left:0;
+    width:146px;
+    
+}
+.taobao-body .head .head-logo a{
+    display: block;
+    padding-top:67px;
+    height: 0;
+    overflow: hidden;
+    background-image: url(http://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+    background-repeat: no-repeat;
+
+}
+.taobao-body .head .qrcode{
+    width: 65px;
+    height:75px;
+    border: 1px solid #EEE;
+    position: absolute;
+    top: 0;
+    right:120px;
+}
+.taobao-body .head .qrcode span{
+    color:#F40;
+    font-size: 12px;
+}
+.taobao-body .head .qrcode a{
+    display: block;
+    height: 90px;
+    background-image: url(img/qrcode.png);
+    background-size: 68px 68px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
 }
