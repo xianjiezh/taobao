@@ -9,6 +9,11 @@ li{
 a{
     text-decoration: none;
 }
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
 .usernav-wrapper{
     width: 100%;
     background-color: #F5F5F5;
@@ -19,11 +24,6 @@ a{
     width:1190px;
     margin: 0 auto;
     height: 35px;
-}
-.usernav-wrapper .usernav-content::after{
-    content: "";
-    display: block;
-    clear: both;
 }
 .usernav-wrapper .usernav-content .usernav-content-left{
     float: left;
@@ -116,7 +116,6 @@ a{
 .taobao-body{
     width :1190px;
     margin: 20px auto;
-    border: 1px solid red;
 }
 .taobao-body .head{
     position: relative;
@@ -125,7 +124,6 @@ a{
     width:550px;
     height:50px;
     margin: 5px auto;
-    border: 1px solid black;
 }
 .taobao-body .head .head-logo{
 
@@ -163,4 +161,53 @@ a{
     background-size: 68px 68px;
     background-repeat: no-repeat;
     margin-bottom: 5px;
+}
+.taobao-body .head .head-search ul li{
+    float: left;
+    color:#F40;
+    font-size: 12px;
+    padding:5px 8px;
+    margin: 1px;
+    cursor: pointer;
+}
+.taobao-body .head .head-search ul li:hover{
+    background-color: #FFEEE5;
+}
+.taobao-body .head .head-search ul li.trigger{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: linear-gradient(to right,#FF8F00,#FF5100);
+    color: #FFF;
+}
+.taobao-body .head .head-search .search-box{
+    border:2px solid #FF5000;
+    border-radius: 19px;
+    height:36px;
+    margin-top: -1px;
+    margin-left: -30px;
+    position: relative;
+}
+.taobao-body .head .head-search .search-box .content{
+    padding: 6px 0;
+    text-indent: 10px;
+    height: 22px;
+    line-height: 22px;
+    width: 472px;
+    border: none;
+    outline: 0;
+    margin-left:15px;
+    margin-top: 1px;
+    background: #FFF;
+}
+.taobao-body .head .head-search .search-box .submit{
+    background: linear-gradient(to right,#FF8F00,#FF5000);
+    border-width:0;
+    padding: 8px 17px;
+    position: absolute;
+    top:0;
+    right:0;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius:14px;
+    color: #FFF;
+    font-size: 17px;
 }
